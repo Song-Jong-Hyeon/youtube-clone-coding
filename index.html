@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube Project</title>
+        <script
+            src="https://kit.fontawesome.com/2d323a629b.js"
+            crossorigin="anonymous"
+        ></script>
+        <script 
+            src="https://fonts.googleapis.com/css?family=Roboto&display=swqp"
+            rel="stylesheet"
+        ></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span class="title">Youtube</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-ellipis-v"></i>
+            </div>
+        </header>
+
+        <!-- Video Player -->
+        <section class="player">
+            <video controls autoplay src="video/video.mp4"></video>
+        </section>
+        <div class="infoAndUpNext">
+            <!-- Video information -->
+        <section class="info">
+            <!-- Meta data -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#DreamCoding</li>
+                    <li>#DreamCoders</li>
+                    <li>#Ellie</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+                        무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                        이 기상과 이 맘으로 충성을 다하여 괴로우나 즐거우나 나라 보전하세
+                        무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">조회수 123,345회 한 달 전</span>
+            </div>
+            <!-- Actions -->
+            <ul class="actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-thumbs-down"></i><span>780</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-share"></i><span>Share</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-plus"></i><span>Save</span></button>
+                </li>
+                <li>
+                    <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+                </li>
+            </ul>
+            <!-- Channel Desciption -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/image.jpg" alt="" />
+                    <div class="info">
+                        <span class="name">드림코딩 by 앨리</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        <!-- upNext -->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/sumnail1.jpg" alt="" /></div>
+                    <div class="info">
+                        <span class="title">웹사이트 따라만들기, 반응형 헤더편|프론트엔드 개발자 입문편:HTML, CSS, Javascript</span>
+                        <span class="name">드림코딩 by 앨리</span>
+                        <span class="views">조회수 11만회 1년 전</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/sumnail2.jpg" alt="" /></div>
+                    <div class="info">
+                        <span class="title">HTML 기초, React 할때 꼭 필요한 팁!쉽다고 무시하면 안돼요 | 프론트엔드 개발자 입문편:HTML, CSS, Javascript</span>
+                        <span class="name">드림코딩 by 앨리</span>
+                        <span class="views">조회수 7.5만회 1년 전</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/sumnail3.jpg" alt="" /></div>
+                    <div class="info">
+                        <span class="title">코딩의 시작과 끝, 디버깅 | 실력있는 개발자의 필수 무기</span>
+                        <span class="name">드림코딩 by 앨리</span>
+                        <span class="views">조회수 4.6만회 4주 전</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
